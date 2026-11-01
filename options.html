@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Hush settings</title>
+  <link rel="stylesheet" href="ui.css">
+</head>
+<body class="options">
+<main class="page">
+  <h1 data-i18n="optTitle"></h1>
+  <div id="fault" class="fault" role="alert" hidden>
+    <b data-i18n="faultTitle"></b><span data-i18n="faultBody"></span><span id="faultDetail" class="detail"></span>
+  </div>
+
+  <section class="sec">
+    <h2 data-i18n="secFollow"></h2>
+
+    <div class="field">
+      <label for="grace" data-i18n="optGrace"></label>
+      <div class="range"><input id="grace" type="range" min="0" max="5000" step="250"><output id="graceOut" for="grace"></output></div>
+      <p class="help" data-i18n="optGraceHelp"></p>
+    </div>
+
+    <div class="field" role="radiogroup" aria-labelledby="scopeLbl">
+      <span id="scopeLbl" class="lbl" data-i18n="optScope"></span>
+      <label class="radio"><input type="radio" name="scope" value="perWindow"><span><b data-i18n="optScopePerWindow"></b><span class="help" data-i18n="optScopePerWindowHelp"></span></span></label>
+      <label class="radio"><input type="radio" name="scope" value="focused"><span><b data-i18n="optScopeFocused"></b><span class="help" data-i18n="optScopeFocusedHelp"></span></span></label>
+    </div>
+
+    <label class="check"><input id="pinned" type="checkbox"><span><b data-i18n="optPinned"></b><span class="help" data-i18n="optPinnedHelp"></span></span></label>
+    <label class="check"><input id="silent" type="checkbox"><span><b data-i18n="optMuteSilent"></b><span class="help" data-i18n="optMuteSilentHelp"></span></span></label>
+  </section>
+
+  <section class="sec">
+    <h2 data-i18n="secDisplay"></h2>
+    <label class="check"><input id="badge" type="checkbox"><span><b data-i18n="optBadge"></b></span></label>
+    <div class="field">
+      <label for="theme" data-i18n="optTheme"></label>
+      <select id="theme">
+        <option value="system" data-i18n="themeSystem"></option>
+        <option value="light" data-i18n="themeLight"></option>
+        <option value="dark" data-i18n="themeDark"></option>
+      </select>
+    </div>
+  </section>
+
+  <section class="sec">
+    <h2 data-i18n="secShortcuts"></h2>
+    <div id="keys" class="keys"></div>
+    <div class="btnrow"><button id="changeKeys" class="btn" type="button" data-i18n="shortcutChange"></button></div>
+  </section>
+
+  <section class="sec">
+    <h2 data-i18n="secPrivacy"></h2>
+    <p class="help" data-i18n="optPrivacyBody"></p>
+    <p id="permStatus" class="help"></p>
+    <div class="btnrow">
+      <button id="permOn" class="btn primary" type="button" data-i18n="permButton"></button>
+      <button id="permOff" class="btn" type="button" data-i18n="permRevoke"></button>
+    </div>
+  </section>
+
+  <div class="btnrow">
+    <button id="reset" class="btn" type="button" data-i18n="resetSettings"></button>
+    <span id="toast" class="status" role="status"></span>
+  </div>
+</main>
+<script src="shared.js"></script>
+<script src="options.js"></script>
+</body>
+</html>

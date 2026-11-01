@@ -1,0 +1,261 @@
+{
+  "extName": {
+    "message": "Hush: Tab Audio Control & Auto-Mute",
+    "description": "Store title"
+  },
+  "extDescription": {
+    "message": "Mute background tabs automatically and find the noisy one. Runs 100% in your browser: no accounts, no tracking.",
+    "description": "Store description, max 132 characters"
+  },
+  "cmdSolo": {
+    "message": "Mute all other tabs (keep this one playing)"
+  },
+  "cmdAll": {
+    "message": "Mute or unmute every tab"
+  },
+  "cmdFollow": {
+    "message": "Turn auto-follow on or off"
+  },
+  "state_off": {
+    "message": "Hush: ready"
+  },
+  "state_follow": {
+    "message": "Hush: sound follows the tab you're on"
+  },
+  "state_solo": {
+    "message": "Hush: other tabs are muted"
+  },
+  "state_all": {
+    "message": "Hush: all tabs are muted"
+  },
+  "state_paused": {
+    "message": "Hush: paused"
+  },
+  "pill_off": {
+    "message": "Ready"
+  },
+  "pill_follow": {
+    "message": "Following you"
+  },
+  "pill_solo": {
+    "message": "Others muted"
+  },
+  "pill_all": {
+    "message": "All muted"
+  },
+  "pill_paused": {
+    "message": "Paused"
+  },
+  "muteOthers": {
+    "message": "Mute others"
+  },
+  "muteOthersSub": {
+    "message": "This tab keeps playing"
+  },
+  "muteAll": {
+    "message": "Mute all"
+  },
+  "muteAllSub": {
+    "message": "Every tab goes quiet"
+  },
+  "autoFollow": {
+    "message": "Auto-follow"
+  },
+  "autoFollowSub": {
+    "message": "Sound follows the tab you're on"
+  },
+  "followNote": {
+    "message": "Auto-follow takes over again when you turn off the mode above."
+  },
+  "pause": {
+    "message": "Pause Hush"
+  },
+  "pauseSub": {
+    "message": "Unmute what Hush muted and stand by"
+  },
+  "playingNow": {
+    "message": "Playing now"
+  },
+  "nothingPlaying": {
+    "message": "No tab is making sound."
+  },
+  "recentlyPlayed": {
+    "message": "Played in the last 10 minutes"
+  },
+  "jumpToTab": {
+    "message": "Go to this tab"
+  },
+  "muteTab": {
+    "message": "Mute this tab"
+  },
+  "unmuteTab": {
+    "message": "Unmute this tab"
+  },
+  "thisTab": {
+    "message": "This tab"
+  },
+  "mutedByHush": {
+    "message": "Muted by Hush"
+  },
+  "mutedLabel": {
+    "message": "Muted"
+  },
+  "playingLabel": {
+    "message": "Playing"
+  },
+  "quietLabel": {
+    "message": "Quiet now"
+  },
+  "tabFallback": {
+    "message": "Tab $INDEX$ in window $WIN$",
+    "placeholders": {
+      "index": {
+        "content": "$1"
+      },
+      "win": {
+        "content": "$2"
+      }
+    }
+  },
+  "permTitle": {
+    "message": "Show tab names"
+  },
+  "permBody": {
+    "message": "Let Hush read tab titles so the list says what is playing. Titles stay on your device."
+  },
+  "permButton": {
+    "message": "Show tab names"
+  },
+  "restoreAll": {
+    "message": "Put everything back"
+  },
+  "settings": {
+    "message": "Settings"
+  },
+  "privacyLine": {
+    "message": "Nothing leaves your browser. No accounts, no tracking."
+  },
+  "dismiss": {
+    "message": "Dismiss"
+  },
+  "tipText": {
+    "message": "Press $KEY$ to mute everything except the tab you're on.",
+    "placeholders": {
+      "key": {
+        "content": "$1"
+      }
+    }
+  },
+  "tipNoKey": {
+    "message": "Set a shortcut in Settings to mute everything except this tab in one keystroke."
+  },
+  "optTitle": {
+    "message": "Hush settings"
+  },
+  "secFollow": {
+    "message": "Auto-follow"
+  },
+  "optGrace": {
+    "message": "Grace delay"
+  },
+  "optGraceHelp": {
+    "message": "How long the tab you just left keeps playing before it is muted."
+  },
+  "optGraceValue": {
+    "message": "$SEC$ s",
+    "placeholders": {
+      "sec": {
+        "content": "$1"
+      }
+    }
+  },
+  "optScope": {
+    "message": "Which tab counts as the one you're on"
+  },
+  "optScopePerWindow": {
+    "message": "The active tab in every window"
+  },
+  "optScopePerWindowHelp": {
+    "message": "Each window keeps its own current tab audible."
+  },
+  "optScopeFocused": {
+    "message": "Only the window I'm using"
+  },
+  "optScopeFocusedHelp": {
+    "message": "Tabs in your other windows stay muted."
+  },
+  "optPinned": {
+    "message": "Pinned tabs keep playing"
+  },
+  "optPinnedHelp": {
+    "message": "Auto-follow never mutes a pinned tab, so a pinned music or call tab stays on."
+  },
+  "optMuteSilent": {
+    "message": "Mute silent tabs too"
+  },
+  "optMuteSilentHelp": {
+    "message": "On: every background tab is muted ahead of time, so nothing can burst in. Off: Hush only mutes tabs that are making sound, which leaves fewer mute icons in your tab bar."
+  },
+  "secDisplay": {
+    "message": "Display"
+  },
+  "optBadge": {
+    "message": "Show how many tabs are playing on the icon"
+  },
+  "optTheme": {
+    "message": "Theme"
+  },
+  "themeSystem": {
+    "message": "Match browser"
+  },
+  "themeLight": {
+    "message": "Light"
+  },
+  "themeDark": {
+    "message": "Dark"
+  },
+  "secShortcuts": {
+    "message": "Keyboard shortcuts"
+  },
+  "shortcutNotSet": {
+    "message": "Not set"
+  },
+  "shortcutChange": {
+    "message": "Change shortcuts"
+  },
+  "secPrivacy": {
+    "message": "Privacy"
+  },
+  "optPrivacyBody": {
+    "message": "Hush runs entirely in your browser. It has no accounts, no sync and no analytics, and its code makes no network requests."
+  },
+  "permStatusOn": {
+    "message": "Tab names are on. The list shows page titles."
+  },
+  "permStatusOff": {
+    "message": "Tab names are off. The list shows generic labels, and Hush reads no titles or addresses."
+  },
+  "permRevoke": {
+    "message": "Turn off tab names"
+  },
+  "resetSettings": {
+    "message": "Reset to defaults"
+  },
+  "resetDone": {
+    "message": "Settings reset."
+  },
+  "faultTitle": {
+    "message": "Hush isn't fully running"
+  },
+  "faultBody": {
+    "message": "Some buttons won't work yet. Open chrome://extensions, press Hush's reload icon, and check its Errors button if this stays."
+  },
+  "faultMissing": {
+    "message": "Missing browser features: $LIST$",
+    "placeholders": {
+      "list": {
+        "content": "$1"
+      }
+    }
+  }
+}

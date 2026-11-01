@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "__MSG_extName__",
+  "short_name": "Hush",
+  "version": "0.1.3",
+  "description": "__MSG_extDescription__",
+  "default_locale": "en",
+  "minimum_chrome_version": "110",
+  "icons": { "16": "icons/icon16.png", "48": "icons/icon48.png", "128": "icons/icon128.png" },
+  "action": {
+    "default_title": "__MSG_extName__",
+    "default_popup": "popup.html",
+    "default_icon": { "16": "icons/icon16.png", "48": "icons/icon48.png", "128": "icons/icon128.png" }
+  },
+  "background": { "service_worker": "background.js" },
+  "options_ui": { "page": "options.html", "open_in_tab": true },
+  "permissions": ["storage"],
+  "optional_permissions": ["tabs"],
+  "commands": {
+    "toggle-solo":   { "suggested_key": { "default": "Alt+M" },       "description": "__MSG_cmdSolo__" },
+    "toggle-all":    { "suggested_key": { "default": "Alt+Shift+M" }, "description": "__MSG_cmdAll__" },
+    "toggle-follow": { "suggested_key": { "default": "Alt+A" },       "description": "__MSG_cmdFollow__" }
+  }
+}
